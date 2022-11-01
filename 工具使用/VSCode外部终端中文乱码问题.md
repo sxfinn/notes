@@ -4,7 +4,7 @@
 
 你在使用VScode编辑代码时，代码页面中文正常，而终端输出那里中文却为乱码。
 
-出现这个现象的原因是因为编码方式的不同。（VScode的默认编码方式为UTF-8，中国地区下cmd的编码方式GBK）
+出现这个现象的原因是因为编码方式的不同。（VScode的默认编码方式为UTF-8，输出到终端的字符都是UTF-8的，而中国地区下cmd的编码方式GBK）
 
 如果VScode终端那里调用的是cmd，两者编码方式的不同的就导致了中文乱码的问题。
 
@@ -24,9 +24,11 @@ VSCode终端其实调用的是cmd.exe，所以当这里出现中文乱码的时�
 
 
 
-![img](https://pic.xinsong.xyz/img/202211011542566.png)
+![img](https://pic.xinsong.xyz/img/202211011620769.png)
 
- ![img](https://pic.xinsong.xyz/img/202211011542574.png)
+![img](https://pic.xinsong.xyz/img/202211011620375.png)
+
+
 
 当然每次使用都输入一遍 chcp 65001 太烦了 ，可以直接在setting.json 中加上 
 
@@ -48,7 +50,7 @@ VSCode终端其实调用的是cmd.exe，所以当这里出现中文乱码的时�
 
 VScode默认是UTF-8编码格式，我们要做的是更改VScode的默认编码格式为GBK。
 
-下面是有关gbk和UTF-8编码方式的简单介：
+下面是有关gbk和UTF-8编码方式的简单介绍：
 
 - GBK全称《汉字内码扩展规范》（GBK即“国标”、“扩展”汉语拼音的第一个字母，英文名称：Chinese Internal Code Specification） ，中华人民共和国全国信息技术标准化技术委员会1995年12月1日制订，国家技术监督局标准化司、电子工业部科技与质量监督司1995年12月15日联合以技监标函1995 229号文件的形式，将它确定为技术规范指导性文件。这一版的GBK规范为1.0版。
 - UTF-8（8-bit Unicode Transformation Format）是一种针对Unicode的可变长度字符编码，又称万国码，由Ken Thompson于1992年创建。现在已经标准化为RFC 3629。UTF-8用1到6个字节编码Unicode字符。用在网页上可以统一页面显示中文简体繁体及其它语言（如英文，日文，韩文）。
@@ -63,7 +65,7 @@ VScode默认是UTF-8编码格式，我们要做的是更改VScode的默认编码
 
 在node.js的调试过称中，经常需要在终端中使用console.log()输入一些变量，然而windows的cmd默认是GBK编码，在调试的过程中会出现乱码。
 
-幸好VScode提供的对内置控制台的运行参数设定，我们可以通过 `**terminal.integrated.shellArgs.windows** `选项对内置控制台的运行进行参数设定
+幸好VScode提供的对内置控制台的运行参数设定，我们可以通过 `terminal.integrated.shellArgs.windows `选项对内置控制台的运行进行参数设定
 
 通过打开“文件”--“首选项”--“用户设置”，然后在setting.json中设置：
 
@@ -77,9 +79,9 @@ VScode默认是UTF-8编码格式，我们要做的是更改VScode的默认编码
 
 ![img](https://pic.xinsong.xyz/img/202211011540632.png)
 
-`**/K chcp 65001 >nul** `的含义是在运行cmd的时候将编码设置为 **65001；**
+`/K chcp 65001 >nul `的含义是在运行cmd的时候将编码设置为 **65001；**
 
-`**>nul** `是避免在控制台输出修改编码的信息，否则会输出 **`active code page: 65001`；**
+`>nul `是避免在控制台输出修改编码的信息，否则会输出 **`active code page: 65001`；**
 
 同时，把字体修改为 **`Lucida Console`**
 

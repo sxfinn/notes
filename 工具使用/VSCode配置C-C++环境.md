@@ -22,9 +22,9 @@
 
 - 官网页面：https://www.mingw-w64.org/
 
-- 下载页面：https://sourceforge.net/projects/mingw-w64/files/
+- 下载页面：https://sourceforge.net/projects/mingw-w64/files/ -内置了iconv工具
 
-- 非官方下载页面：[MinGW Distro - nuwen.net](https://nuwen.net/mingw.html)-此版本未内置iconv工具
+- 非官方下载页面：[MinGW Distro - nuwen.net](https://nuwen.net/mingw.html) -此版本未内置iconv工具
 
   > 你可以进入官网自行寻找
   >
@@ -114,7 +114,7 @@
 >
 > `.vscode` 文件夹下的 `task.json` 和 `launch.json` 用来控制程序的运行和调试
 
-- 将程序运行在外部控制台【墙裂推荐】
+- **将程序运行在外部控制台**【墙裂推荐】
 
   - 打开`.vscode` 文件夹下的 `launch.json` 文件，找到 `"externalConsole": false,` 将 `false` 改为 `true` 并保存
 
@@ -122,9 +122,9 @@
 
      
 
-- 解决中文乱码问题【墙裂推荐】
+- **解决中文乱码问题**【墙裂推荐】
 
-  先了解一下**gcc编译选项**：
+  先了解一下gcc编译选项：
 
   `-finput-charset`:输入字符集设置(需要和源文件编码一致)，告诉编译器以什么样的编码形式读入源文件中的字符串。
 
@@ -154,7 +154,7 @@
     
     
 
-- 收纳生成的 `exe` 可执行文件【可选】
+- **收纳生成的 `exe` 可执行文件**【可选】
 
   - 打开`.vscode` 文件夹下的 `task.json` 文件，找到 `"${fileDirname}\\${fileBasenameNoExtension}.exe"` 
 
@@ -168,7 +168,7 @@
 
 
 
- 			以上优化对g++同理，不再演示。
+​		以上优化C++的项目同理，不再演示。
 
 
 
@@ -176,4 +176,3 @@
 
 - 若源代码文件夹含有中文路径，将会无法编译程序。
 - 若你的Windows用户名使用了中文，可能无法运行。
-- 我知道GIF的自动播放，让你不知从何看起，没办法┗( T﹏T )┛
