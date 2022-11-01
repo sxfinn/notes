@@ -18,9 +18,9 @@
 
 VSCode终端其实调用的是cmd.exe，所以当这里出现中文乱码的时候要解决的是cmd的编码设置问题。
 
-1. 可以通过 chcp 命令查看 cmd 的编码设置，GBK2312 的代码页编号是 *936*，然后改成utf-8的编码即可，
-2. utf-8 对应的代码页编号是 65001 ，所以执行 **chcp 65001** 就可以把cmd的编码设置成uft-8了，
-3. 这样就解决了乱码问题，然后可以再次运行代码查看输出 
+1. 可以通过 chcp 命令查看 cmd 的编码设置，GBK2312 的代码页编号是 *936*，然后改成utf-8的编码即可；
+2. utf-8 对应的代码页编号是 65001 ，所以执行 **chcp 65001** 就可以把cmd的编码设置成uft-8了；
+3. 这样就解决了乱码问题，然后可以再次运行代码查看输出 ；
 
 
 
@@ -65,11 +65,11 @@ VScode默认是UTF-8编码格式，我们要做的是更改VScode的默认编码
 
 在node.js的调试过称中，经常需要在终端中使用console.log()输入一些变量，然而windows的cmd默认是GBK编码，在调试的过程中会出现乱码。
 
-幸好VScode提供的对内置控制台的运行参数设定，我们可以通过 `terminal.integrated.shellArgs.windows `选项对内置控制台的运行进行参数设定
+幸好VScode提供的对内置控制台的运行参数设定，我们可以通过 `terminal.integrated.shellArgs.windows `选项对内置控制台的运行进行参数设定。
 
 通过打开“文件”--“首选项”--“用户设置”，然后在setting.json中设置：
 
-```
+```json
 {
     "editor.fontSize": 18,
     "terminal.integrated.shellArgs.windows": ["/K chcp 65001 >nul"],
@@ -83,7 +83,7 @@ VScode默认是UTF-8编码格式，我们要做的是更改VScode的默认编码
 
 `>nul `是避免在控制台输出修改编码的信息，否则会输出 **`active code page: 65001`；**
 
-同时，把字体修改为 **`Lucida Console`**
+同时，把字体修改为 **`Lucida Console`**。
 
  
 
