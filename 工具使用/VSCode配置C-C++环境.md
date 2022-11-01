@@ -1,3 +1,7 @@
+## VScode中配置 C/C++ 环境
+
+
+
 #### 1. 下载编辑器VScode
 
 - 官网：https://code.visualstudio.com/
@@ -20,7 +24,7 @@
 
 - 下载页面：https://sourceforge.net/projects/mingw-w64/files/
 
-- 非官方下载页面：[MinGW Distro - nuwen.net](https://nuwen.net/mingw.html)-此版本未内置iconv工具，无法转换编码格式输出，如果终端编码格式不是UTF-8则会中文乱码。
+- 非官方下载页面：[MinGW Distro - nuwen.net](https://nuwen.net/mingw.html)-此版本未内置iconv工具
 
   > 你可以进入官网自行寻找
   >
@@ -120,13 +124,33 @@
 
 - 解决中文乱码问题【墙裂推荐】
 
+  先了解一下**gcc编译选项**：
+
+  `-finput-charset`:输入字符集设置(需要和源文件编码一致)，告诉编译器以什么样的编码形式读入源文件中的字符串。
+
+  `-fexec-charset`:执行字符集设置(需要设置为当前运行环境支持的编码),告诉[编译器](https://so.csdn.net/so/search?q=编译器&spm=1001.2101.3001.7020)在内存中以什么样的编码形式保存字符串。
+
+  `-fwide-exec-charset`:宽字符执行编码(在windows下应设置为utf-16LE)，告诉编译器在内存中以什么样的编码形式保存宽字符串。
+
+  修改编码方式为GBK：
+
   - 打开`.vscode` 文件夹下的 `task.json` 文件，找到 `"${fileDirname}\\${fileBasenameNoExtension}.exe"` 在后面加上英文 `逗号` 然后回车到下一行，粘贴下面文本 `"-fexec-charset=GBK"` 并保存
 
     ![img](https://pic.xinsong.xyz/img/202211011509172.png)
 
-     
+    编译时用`"-fexec-charset=GBK"`这个参数（目前的配置是有的），生成的程序的字符串就是GBK编码的，源文件编码格式不会受到影响，仍是UTF-8。
     
-    **注意**：加入此选项需要你下载的mingw有内置iconv工具！！！
+    
+    
+    **注意**：加入此参数需要依赖你下载的mingw内置iconv工具！！！
+    
+    iconv是一个计算机程序以及一套应用程序编程接口的名称。 作为应用程序的iconv采用命令行界面，允许将某种特定编码的文件转换为另一种编码。
+    
+    若缺少iconv工具使用了此参数，会出现如下**报错**：
+    
+    ```
+    no iconv implementation, cannot convert from utf-8 to gbk
+    ```
     
     
 
@@ -142,7 +166,9 @@
 
     ![img](https://pic.xinsong.xyz/img/202211011509040.png)
 
- 
+
+
+ 			以上优化对g++同理，不再演示。
 
 
 
