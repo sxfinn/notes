@@ -99,6 +99,17 @@ npm-windows-upgrade
 到这里，nodejs和npm的安装就全部完成了。
 
 其实此问题是由版本号导致
+
+第二种方法应该也行，是官方提供的方法，同样是用npm-windows-upgrade更新npm，链接在下面：
+
+[felixrieseberg/npm-windows-upgrade: Upgrade npm on Windows](https://github.com/felixrieseberg/npm-windows-upgrade)
+
+
+
 问题解决链接参照：
+
+[npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead. 怎么解决-前端-CSDN问答](https://ask.csdn.net/questions/7733789)
+
 https://github.com/npm/cli/issues/4980
+
 https://blog.csdn.net/weixin_42288182/article/details/106896534
