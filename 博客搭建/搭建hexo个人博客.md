@@ -4,7 +4,7 @@
 
 Hexo是我们博客的框架，我们需要在我们的电脑里创建一个文件夹，可以命名为Blog，Hexo框架与你发布的博客网页以后都会在这个文件中。创建好后进入文件夹中，按住shift键，右键鼠标点击打开powershell窗口；
 
-![image-20220706165706028](https://pic.xinsong.xyz/img/202207061657071.png)
+![image-20221202141051004](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021410085.png)
 
 打开后
 
@@ -46,7 +46,7 @@ hexo s
 
 即可访问到我们本地的博客内容。
 
-![image-20220706171006095](https://pic.xinsong.xyz/img/202207061710498.png)
+![image-20221202141103878](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021411368.png)
 
 未经修改过的博客页面应该是上面这个样子的，也可以看到我们刚刚创建的test_my_site这篇文章。
 
@@ -84,7 +84,7 @@ hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令
 
 例如我的sxfinn.github.io
 
-![image-20220706173413453](https://pic.xinsong.xyz/img/202207061734669.png)
+![image-20221202141136705](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021411979.png)
 
 我们使用 ssh 免密部署，这种方式可以避免输密码的繁琐，并且速度也是最快的。
 
@@ -152,7 +152,7 @@ ssh -T git@github.com
 
 出现如下信息则说明添加成功。
 
-![image-20220706180343464](https://pic.xinsong.xyz/img/202207061803493.png)
+![image-20221202141205160](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021412201.png)
 
 ### 配置部署信息
 
@@ -160,7 +160,7 @@ ssh -T git@github.com
 
 如下图：
 
-![image-20220706171616325](https://pic.xinsong.xyz/img/202207061716433.png)
+![image-20221202141221129](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021412263.png)
 
 现在我们要做的就是将Hexo与Github关联起来，打开站点的配置文件`_config.yml`，下拉到最后修改为：
 
@@ -175,7 +175,7 @@ deploy:
 
 例如我的：
 
-![image-20220706180816807](https://pic.xinsong.xyz/img/202207061808015.png)
+![image-20221202141236779](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021412052.png)
 
 保存站点配置文件。
 
@@ -207,7 +207,7 @@ hexo d
 
 你就会发现你的博客已经上线了，可以在网络上被访问了，这与你在本地预览的博客内容是一样的。
 
-![image-20220706181004727](https://pic.xinsong.xyz/img/202207061810219.png)
+![image-20221202141256423](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021412022.png)
 
 
 
@@ -217,7 +217,7 @@ hexo d
 
 1. 登录到阿里云，进入域名控制台点击解析；
 
-![image-20220706181840964](https://pic.xinsong.xyz/img/202207061818021.png)
+![image-20221202141323042](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021413117.png)
 
 2. 添加解析记录
 
@@ -261,7 +261,7 @@ Custom domain填入相应域名再添加一个解析记录，记录类型为CNAM
 
 如下图添加了我们填写的Custom domain的解析记录会报错：**DNS valid  for primary**，并且提示我们www域名未正确配置，这是为何？
 
-![image-20220826182121725](https://pic.xinsong.xyz/img/202208261821888.png)
+![image-20221202141334840](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021413007.png)
 
 带着些历史原因，通常我们的印象中www域名和主域名是访问同一个站点的，大部分网站都这个机制，包括Github Page。
 
@@ -300,7 +300,7 @@ GitHub Page推荐我们通过DNS提供商在配置一个主域名同时配置一
 
 3. 登录GitHub，进入之前创建的仓库，点击setting，设置Custom domain，输入你的域名。
 
-![image-20220706190711806](https://pic.xinsong.xyz/img/202207061907861.png)
+![image-20221202141347251](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021413328.png)
 
 这样就通过我们的个性化域名来访问我们自己的网站了。
 
@@ -312,7 +312,7 @@ GitHub Page推荐我们通过DNS提供商在配置一个主域名同时配置一
 
 
 
-![image-20220706191228751](https://pic.xinsong.xyz/img/202207061912780.png)
+![image-20221202141355440](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021413489.png)
 
 保存即可，命名为**CNAME**，注意保存类型选择**所有文件**而不是**文本文件**。
 

@@ -16,7 +16,7 @@
 
 e.g `"what is javascript"`
 
-[![img](https://pic.xinsong.xyz/img/202209091858120.webp)](https://cdn.jsdelivr.net/npm/cpdd/posts/aae542e3/js.5a7w41oq0xk0.webp)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021506957.webp)
 
 
 
@@ -26,7 +26,7 @@ e.g `"what is javascript"`
 
 e.g `html AND css`
 
-[![img](https://pic.xinsong.xyz/img/202209091858106.webp)](https://cdn.jsdelivr.net/npm/cpdd/posts/aae542e3/AND.3n46lm4omns0.webp)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021506402.webp)
 
 
 
@@ -36,7 +36,7 @@ e.g `html AND css`
 
 e.g `(javascript OR python) free course`
 
-[![img](https://pic.xinsong.xyz/img/202209091858585.webp)](https://cdn.jsdelivr.net/npm/cpdd/posts/aae542e3/OR.69n014ebaqc0.webp)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021506669.webp)
 
 
 
@@ -50,7 +50,7 @@ e.g `javascript -css`
 
 所以搜出来的结果都是与 `javascript` 相关
 
-[![img](https://pic.xinsong.xyz/img/202209091858064.webp)](https://cdn.jsdelivr.net/npm/cpdd/posts/aae542e3/-.9lbuly10uhs.webp)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021507293.webp)
 
 
 
@@ -60,7 +60,7 @@ e.g `javascript -css`
 
 e.g `"how to start * in 6 months"`
 
-[![img](https://pic.xinsong.xyz/img/202209091858567.webp)](https://cdn.jsdelivr.net/npm/cpdd/posts/aae542e3/_.6ee89s3z5g00.webp)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021507689.webp)
 
 
 
@@ -70,13 +70,13 @@ e.g `"how to start * in 6 months"`
 
 e.g `site:blog.imzjw.cn`
 
-[![img](https://pic.xinsong.xyz/img/202209091858234.webp)](https://cdn.jsdelivr.net/npm/cpdd/posts/aae542e3/imzjw.2c6u408781es.webp)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021507457.webp)
 
 
 
 还可以将搜索范围限制为域名后缀，例如 `site:com`、`site:cn`、`site:org`
 
-[![img](https://pic.xinsong.xyz/img/202209091858619.webp)](https://cdn.jsdelivr.net/npm/cpdd/posts/aae542e3/V1ncent.10ygm5ffq728.webp)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021507412.webp)
 
 
 
@@ -86,7 +86,7 @@ e.g `site:blog.imzjw.cn`
 
 e.g `filetype:pdf learn css`
 
-[![img](https://pic.xinsong.xyz/img/202209091858714.webp)](https://cdn.jsdelivr.net/npm/cpdd/posts/aae542e3/filetype.38e903ggguy0.webp)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021507906.webp)
 
 
 
@@ -94,7 +94,7 @@ e.g `filetype:pdf learn css`
 
 e.g `Java ext:pdf`
 
-[![img](https://pic.xinsong.xyz/img/202209091858191.webp)](https://cdn.jsdelivr.net/npm/cpdd/posts/aae542e3/ext.4guvpoi22vi0.webp)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021507239.webp)
 
 
 
@@ -102,7 +102,7 @@ e.g `Java ext:pdf`
 
 e.g `ecmascript 2016..2018`
 
-[![img](https://pic.xinsong.xyz/img/202209091858407.webp)](https://cdn.jsdelivr.net/npm/cpdd/posts/aae542e3/ecmascript.2ty9f4dmatu0.webp)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021507228.webp)
 
 
 

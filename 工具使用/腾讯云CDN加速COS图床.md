@@ -10,7 +10,7 @@
 
 步骤如下：
 
-![img](https://pic.xinsong.xyz/img/202205182113776.png)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021508856.png)
 
 ### 开通 CDN 服务
 
@@ -40,28 +40,28 @@
 
 * 我只有一个备案了的域名，因此我选择使用此域名加前缀子域名作为我的加速域名
 
-![image-20220518132526621](https://pic.xinsong.xyz/img/202205182113318.png)
+![image-20220518132526621](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021508914.png)
 
 由于我已经做过了CDN接入，因此这里不在显示需要验证，通常我们还需要DNS解析验证，步骤如下：
 
 #### DNS 解析验证操作步骤
 
 1. 单击**验证方法**，获取 DNS 验证所需要的解析记录信息，在验证完成前保持页面打开。
-   ![img](https://pic.xinsong.xyz/img/202205182113209.png)
+   ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021508132.png)
 
 2. 如果您的域名解析商为腾讯云，进入 [域名服务控制台](https://console.cloud.tencent.com/cns)，找到该域名并单击解析，添加一条记录类型为 TXT 的 DNS 记录，主机记录填写为 `_cdnauth`。
-   ![img](https://pic.xinsong.xyz/img/202205182113726.png)
+   ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021508675.png)
    如果您的域名解析商为阿里云，同样找到该域名并单击解析，添加一条记录类型为 TXT 的 DNS 记录，主机记录填写为 `_cdnauth`。
-   ![img](https://pic.xinsong.xyz/img/202205182113699.png)
+   ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021508973.png)
 
    
 
    如果您的域名解析商为阿里云，进入域名服务控制台，找到该域名并单击解析，添加一条记录类型为 TXT 的 DNS 记录，主机记录填写为 `_cdnauth`。
 
-   ![image-20220518131653355](https://pic.xinsong.xyz/img/202205182113880.png)
+   ![image-20220518131653355](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021508860.png)
 
 3. 等待 TXT 解析生效，单击**验证**按钮进行验证。
-   ![img](https://pic.xinsong.xyz/img/202205182113574.png)
+   ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021508403.png)
 
 
 
@@ -84,19 +84,19 @@
 
 回源HOST会在源站地址选择后自动填入，不需要手动输入。
 
-![image-20220518130104117](https://pic.xinsong.xyz/img/202205182113526.png)
+![image-20220518130104117](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021509247.png)
 
 #### 服务配置
 
 由于我并没有大文件资源，因此不需要开启分片回源（这里根据个人需求选择）
 
-![image-20220518130412724](https://pic.xinsong.xyz/img/202205182113390.png)
+![image-20220518130412724](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021509061.png)
 
 #### 用量封顶配置
 
 根据个人需求选择，这里我是默认配置；
 
-![image-20220518130538604](https://pic.xinsong.xyz/img/202205182113700.png)
+![image-20220518130538604](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021509528.png)
 
 全部配置结束后点击“确认提交”
 
@@ -104,7 +104,7 @@
 
 完成添加域名操作后，请耐心等待域名配置下发至全网节点，下发时间约5 - 10分钟。
 
-![img](https://pic.xinsong.xyz/img/202205182113071.png)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021510913.png)
 
 
 
@@ -114,7 +114,7 @@
 
 1. 返回域名管理，在您域名成功解析前，CNAME 处会有提示 icon。复制此处的 CNAME 值。
 
-![image-20220518132818476](https://pic.xinsong.xyz/img/202205182113415.png)
+![image-20220518132818476](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021511928.png)
 
 
 
@@ -122,13 +122,13 @@
 
 3. 单击要解析的域名，进入解析记录页。
 
-   ![image-20220518133059663](https://pic.xinsong.xyz/img/202205182113427.png)
+   ![image-20220518133059663](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021511633.png)
 
 4. 进入解析记录页后，单击**添加记录**按钮，开始设置解析记录。
 
    （这里我添加pic.xinsong.xyz域名进行演示）
 
-![image-20220518133245705](https://pic.xinsong.xyz/img/202205182113478.png)
+![image-20220518133245705](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021511185.png)
 
 5. 将记录类型选择为 CNAME。主机记录即域名前缀，可任意填写（如：pic）。记录值填写为步骤1中复制的CNAME值。解析线路，TTL 默认即可。
 
@@ -144,7 +144,7 @@
 
 打开CMD ，命令行输入dig + 你的自定义域名；
 
-![image-20220518133618125](https://pic.xinsong.xyz/img/202205182113963.png)
+![image-20220518133618125](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021512155.png)
 
 
 
@@ -152,11 +152,11 @@
 
 进入CDN控制台—>域名管理—>要配置的域名
 
-![image-20220518134043491](https://pic.xinsong.xyz/img/202205182113083.png)
+![image-20220518134043491](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021512921.png)
 
 访问控制可以进行防盗链配置以及ip黑白名单等，这里我仅仅设置了ip限频
 
-![image-20220518134222118](https://pic.xinsong.xyz/img/202205182113342.png)
+![image-20220518134222118](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021512529.png)
 
 根据个人需求配置即可。
 
@@ -172,7 +172,7 @@
 
 流程：
 
-![img](https://pic.xinsong.xyz/img/202205182113158.png)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021513402.png)
 
 比较简单，具体参照官方文档。
 
@@ -186,14 +186,14 @@
 
 https配置指南：https://cloud.tencent.com/document/product/228/41687
 
-![image-20220518140646331](https://pic.xinsong.xyz/img/202205182113235.png)
+![image-20220518140646331](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021514076.png)
 
 **配置https，建议如下图更改**
 
 1. 打开HTTPS 2.0；
 2. 开启HTTPS强制跳转；
 
-![image-20220518140519520](https://pic.xinsong.xyz/img/202205182113441.png)
+![image-20220518140519520](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021514606.png)
 
 ## Picgo配置
 
@@ -207,11 +207,11 @@ https配置指南：https://cloud.tencent.com/document/product/228/41687
 
 设定自定义域名：将您**接入的域名**填入“设定自定义域名”一栏
 
-![image-20220519110831849](https://pic.xinsong.xyz/img/202205191108961.png)
+![image-20220519110831849](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021514803.png)
 
 验证图片上传选项
 
-![image-20220519105752449](https://pic.xinsong.xyz/img/202205191110682.png)
+![image-20220519105752449](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021514131.png)
 
 到此就结束了，我们可以使用腾讯云提供的CDN服务了。
 

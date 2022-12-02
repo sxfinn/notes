@@ -6,13 +6,13 @@
 
 - 官网：https://code.visualstudio.com/
 
-  ![下载指引](https://pic.xinsong.xyz/img/202211011506968.png)
+  ![下载指引](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021529307.png)
 
    
 
 - 安装VScode（建议附加任务全部勾选）
 
-  ![vscode安装](https://pic.xinsong.xyz/img/202211011506983.gif)
+  ![vscode安装](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021529086.gif)
 
  
 
@@ -32,7 +32,7 @@
 
 - 下载页面中选择 `x86_64-win32-seh` 下载
 
-  ![mingw下载](https://pic.xinsong.xyz/img/202211011507348.png)
+  ![mingw下载](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021529461.png)
 
   > 如果你因为网络环境限制无法下载
   >
@@ -40,7 +40,7 @@
 
 - 在C盘中解压文件
 
-  ![img](https://pic.xinsong.xyz/img/202211011507987.gif)
+  ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021530923.gif)
 
   > 理论上你可以在任何地方解压，但注意路径不能包含中文，至于特殊字符请自行测试
 
@@ -52,7 +52,7 @@
 
 - 进入mingw64下的bin文件夹，复制当前路径，Win + i唤起系统设置，输入高级系统设置并进入，点击环境变量，选择path，编辑，新建，粘贴路径，按下三个确定
 
-  ![img](https://pic.xinsong.xyz/img/202211011507197.gif) 
+  ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021530015.gif) 
 
 
 
@@ -62,13 +62,13 @@
 
 - 打开VScode安装插件 `Chinese` 和 `C/C++` ，等待安装完毕后重启VScode
 
-  ![img](https://pic.xinsong.xyz/img/202211011507116.gif)
+  ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021530660.gif)
 
    
 
 - 切换C/C++插件至 `1.8.4` 版本（非必要，不过对于小白来说更方便，此版本运行即自动配置）
 
-  ![img](https://pic.xinsong.xyz/img/202211011508711.png)
+  ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021531705.png)
 
   > 因最新版本不会自动生成launch.json文件，给后续优化带来不便，故退回旧版本。
 
@@ -100,7 +100,7 @@
 
 - VScode菜单栏，点击运行，启动调试，稍等程序运行，输出结果在下方终端，上方调试面板，点击最右边的 <strong style="color:#ffc000;">`橙色方框` </strong>停止程序运行
 
-![img](https://pic.xinsong.xyz/img/202211011509844.gif)
+![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021531504.gif)
 
  
 
@@ -118,7 +118,7 @@
 
   - 打开`.vscode` 文件夹下的 `launch.json` 文件，找到 `"externalConsole": false,` 将 `false` 改为 `true` 并保存
 
-    ![img](https://pic.xinsong.xyz/img/202211011509884.png)
+    ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021531043.png)
 
      
 
@@ -140,7 +140,7 @@
 
   - 打开`.vscode` 文件夹下的 `task.json` 文件，找到 `"${fileDirname}\\${fileBasenameNoExtension}.exe"` 在后面加上英文 `逗号` 然后回车到下一行，粘贴下面文本 `"-fexec-charset=GBK"` 并保存
 
-    ![img](https://pic.xinsong.xyz/img/202211011509172.png)
+    ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021531599.png)
 
     编译时用`"-fexec-charset=GBK"`这个参数（目前的配置是有的），生成的程序的字符串就是GBK编码的，源文件编码格式不会受到影响，仍是UTF-8。
     
@@ -168,7 +168,7 @@
 
     > 这样 `.c` 文件一多起来的时候，就不会出现 `.exe` 和 `.c` 相互穿插在目录中^-^
 
-    ![img](https://pic.xinsong.xyz/img/202211011509040.png)
+    ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021531435.png)
 
 
 

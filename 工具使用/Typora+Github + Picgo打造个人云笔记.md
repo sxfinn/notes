@@ -24,13 +24,13 @@
 
 1. **如图创建一个新的仓库**
 
-![image-20220518215708783](https://pic.xinsong.xyz/img/202205182157031.png)
+![image-20220518215708783](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021526335.png)
 
 
 
 2. **指定仓库名**
 
-![image-20220630083148716](https://pic.xinsong.xyz/img/202206300831903.png)
+![image-20220630083148716](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021526816.png)
 
 
 
@@ -44,7 +44,7 @@
 
 4. 进入GitHub图床设置
 
-![image-20220518215729404](https://pic.xinsong.xyz/img/202205182157501.png)
+![image-20220518215729404](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021526356.png)
 
 * 仓库名格式如上：`用户名` + `仓库名`
 * 分支名根据你的远程分支自行指定
@@ -57,25 +57,25 @@
 
 1. 进入个人**github**账户setting.
 
-![image-20220518215736888](https://pic.xinsong.xyz/img/202205182157129.png)
+![image-20220518215736888](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021526624.png)
 
 2. 点击Developer settings.
 
-![image-20220518215745836](https://pic.xinsong.xyz/img/202205182157000.png)
+![image-20220518215745836](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021527042.png)
 
 3. 选择Personal access **tokens**.
 
-![image-20220518215753525](https://pic.xinsong.xyz/img/202205182157651.png)
+![image-20220518215753525](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021527403.png)
 
 4. 点击Generate new **token**.
 
-![image-20220518215800979](https://pic.xinsong.xyz/img/202205182158123.png)
+![image-20220518215800979](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021527004.png)
 
 5. 为你创建的**token**添加描述
 
 描述一下，例如 `Test`。
 
-![image-20220518215811289](https://pic.xinsong.xyz/img/202205182158447.png)
+![image-20220518215811289](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021528690.png)
 
 6. 选择**token**有效期时间。 
 
@@ -102,13 +102,13 @@
 
 一定保存好，这个Token只能查看一次。
 
-![image-20220518215923781](https://pic.xinsong.xyz/img/202205182159930.png)
+![image-20220518215923781](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021528949.png)
 
 
 
 **进入PicGo设置，打开时间戳重命名**
 
-![image-20220518215930367](https://pic.xinsong.xyz/img/202205182159482.png)
+![image-20220518215930367](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021528161.png)
 
 时间戳可以防止命名冲突。
 
@@ -142,13 +142,13 @@
 
 * GitHub上远端的链接
 
-![image-20220518215941821](https://pic.xinsong.xyz/img/202205182159021.png)
+![image-20220518215941821](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021528847.png)
 
 
 
 * 本地typora的图片链接
 
-![image-20220518220004544](https://pic.xinsong.xyz/img/202205182200661.png)
+![image-20220518220004544](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021528504.png)
 
 **GitHub**给出如下解释：为托管您的图像，**GitHub** 使用 开源项目 **Camo**。**Camo** 为每幅图像生成开头为 [https://camo.githubuserconten...](https://link.segmentfault.com/?enc=FVfTQdJcnfN8CKb5g%2BCXBQ%3D%3D.6G%2F0HTMeWyqzLrQ35QGorFMAu8rUW8wz%2BI2As6eE5zgPtIZzA4oV9OfANMP%2F4b0u) 的**匿名 URL 代理**，将会对其他用户隐藏您的浏览器详细信息和相关信息。
 
@@ -171,7 +171,7 @@
 
 * **进入typora偏好设置**
 
-![image-20220518220012516](https://pic.xinsong.xyz/img/202205182200695.png)
+![image-20220518220012516](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021529292.png)
 
 
 
@@ -191,7 +191,7 @@
 
 
 
-![image-20220518220019485](https://pic.xinsong.xyz/img/202205182200550.png)
+![image-20220518220019485](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021529102.png)
 
 如上图就成功上传了
 
@@ -199,7 +199,7 @@
 
 * 进入GitHub查看图片
 
-![image-20220518220025767](https://pic.xinsong.xyz/img/202205182200843.png)
+![image-20220518220025767](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021529731.png)
 
 
 

@@ -10,7 +10,7 @@ GCC11终于发正式版了, 4月底官方终于发了11.1正式版. 对于我们
 
   GCC的源码仓库地址为: [https://github.com/gcc-mirror/gcc](https://zhuanlan.zhihu.com/gcc的Git地址) ,在浏览器打开这个网址后，不要急于下载，先选择gcc的版本，如下图所示：
 
-![image-20220518215012621](https://pic.xinsong.xyz/img/202205182150806.png)
+![image-20220518215012621](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021633395.png)
 
 
 
@@ -28,7 +28,7 @@ git clone --branch releases/gcc-11.1.0 https://github.com/gcc-mirror/gcc.git
 
 两种方式效果一样, 获取到源代码后, 将当前目录切换到GCC源码根目录, 进入下一步. 源码目录如下图所示:
 
-![image-20220518215022746](https://pic.xinsong.xyz/img/202205182150846.png)
+![image-20220518215022746](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021633444.png)
 
 ## 2. 安装依赖库
 
@@ -67,7 +67,7 @@ make install
 /usr/local/gcc-11.1.0/bin/gcc --version
 ```
 
-![image-20220518215030007](https://pic.xinsong.xyz/img/202205182150053.png)
+![image-20220518215030007](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021634422.png)
 
 得到上图的输出, 则GCC11.1已经成功安装.
 

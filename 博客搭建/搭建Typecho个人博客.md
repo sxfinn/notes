@@ -1,6 +1,6 @@
 ## 搭建Typecho个人博客教程
 
-![image-20220810151100623](https://pic.xinsong.xyz/img/202208101511778.png)
+![image-20221202141814622](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021418853.png)
 
 **Typecho**是一个基于[PHP](https://zh.m.wikipedia.org/wiki/PHP)的开源部落格程序。它使用多种数据库（[MySQL](https://zh.m.wikipedia.org/wiki/MySQL)、[PostgreSQL](https://zh.m.wikipedia.org/wiki/PostgreSQL)、[SQLite](https://zh.m.wikipedia.org/wiki/SQLite)、[MariaDB](https://zh.m.wikipedia.org/wiki/MariaDB)）储存数据，在[GPLv2](https://zh.m.wikipedia.org/wiki/GNU通用公共许可协议)许可证下发行。
 
@@ -48,7 +48,7 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 
 看大家网站需要什么环境进行选择。如果是生产环境推荐大家使用编译安装，如果只是测试环境选择极速安装。两者的区别是编译安装慢但稳定，极速安装虽然快但是没编译安装稳定。耐心等待，可以在左上角查看进度。
 
-![image-20220811142442722](https://pic.xinsong.xyz/img/202208111424059.png)
+![image-20221202141832392](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021418460.png)
 
 * **nginx-1.20**
 * **pureftpd-1.0.49**
@@ -64,17 +64,17 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 
 * **添加站点**
 
-![image-20220811143510394](https://pic.xinsong.xyz/img/202208111435483.png)
+![image-20221202141841071](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021418226.png)
 
 * **填写域名，多个域名分行填写，没有域名可以用ip地址**
 * **FTP文件上传服务可不选，个人认为面板上传文件就很方便**
 * **创建数据库**
 
-![image-20220811143749802](https://pic.xinsong.xyz/img/202208111437863.png)
+![image-20221202141848534](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021418638.png)
 
 * **保存好密码以及用户名，后面会用到**
 
-![image-20220811143843136](https://pic.xinsong.xyz/img/202208111438172.png)
+![image-20221202141856763](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021418814.png)
 
 
 
@@ -84,27 +84,27 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 
 * **进入Typecho官网下载正式版**  [下载 - Typecho Official Site](https://typecho.org/download)
 
-![image-20220811162552557](https://pic.xinsong.xyz/img/202208111625649.png)
+![image-20221202141906472](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021419608.png)
 
 * **打开宝塔面板，进入网站根目录**
 
-![image-20220811143956112](https://pic.xinsong.xyz/img/202208111439164.png)
+![image-20221202142113168](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021421264.png)
 
 * **全选文件删除**（user.ini为放跨站配置可以不删)
 
-![image-20220811144958097](https://pic.xinsong.xyz/img/202208111449216.png)
+![image-20221202142056945](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021420128.png)
 
 * **上传typecho.zip文件压缩包**
 
-![image-20220811145207231](https://pic.xinsong.xyz/img/202208111452381.png)
+![image-20221202142123361](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021421577.png)
 
 * **解压typecho.zip到网站根目录，保证Typecho运行程序在根目录**
 
-![image-20220811145341434](https://pic.xinsong.xyz/img/202208111453517.png)
+![image-20221202142134840](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021421963.png)
 
 * **删除typecho.zip压缩包**（可选）
 
-![image-20220811145441036](https://pic.xinsong.xyz/img/202208111454154.png)
+![image-20221202142145493](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021421660.png)
 
 
 
@@ -117,7 +117,7 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 
 添加两条解析记录如下：
 
-![image-20220811140250896](https://pic.xinsong.xyz/img/202208111402013.png)
+![image-20221202142153981](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021421035.png)
 
 
 
@@ -127,25 +127,25 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 
 * **浏览器地址栏输入域名xinsong.xyz**
 
-![image-20220811145526630](https://pic.xinsong.xyz/img/202208111455717.png)
+![image-20221202142203716](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021422843.png)
 
 * **仅填写红框，安装时会自动分配您服务器最适合的选项，因此其他保持默认即可**（使用刚刚保存的数据库名以及密码）
 
-![image-20220811145845315](https://pic.xinsong.xyz/img/202208111458429.png)
+![image-20221202142214612](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021422774.png)
 
 * **设置用户名和登录密码以及邮箱**（用于每次登录站点）
 
-![image-20220811145958034](https://pic.xinsong.xyz/img/202208111459116.png)
+![image-20221202142232804](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021422919.png)
 
 * **安装成功**
 
-![image-20220811165344511](https://pic.xinsong.xyz/img/202208111653669.png)
+![image-20221202142241268](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021422496.png)
 
 * **访问站点**
 
 
 
-![image-20220811150059818](https://pic.xinsong.xyz/img/202208111500977.png)
+![image-20221202142250193](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021422443.png)
 
 
 
@@ -157,18 +157,18 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 
 若未设置伪静态直接启用地址重写会报错，坚持开启则会导致无法访问网站文章。
 
-![image-20220811163544452](https://pic.xinsong.xyz/img/202208111635500.png)
+![image-20221202142258635](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021422712.png)
 
 #### 设置伪静态规则
 
 * **进入宝塔面板进行站点设置**
 
-![image-20220811152704519](https://pic.xinsong.xyz/img/202208111527694.png)
+![image-20221202142310150](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021423384.png)
 
 * **在宝塔/www/wwwroot/你的域名下 用typecho伪静态**
 * **在宝塔/www/wwwroot/你的域名下/又一个文件夹下才是typecho程序 用typecho2**
 
-![image-20220811152759067](https://pic.xinsong.xyz/img/202208111527150.png)
+![image-20221202142321054](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021423164.png)
 
 #### 设置固定链接
 
@@ -177,7 +177,7 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 * **启用地址重写功能**（必须）
 * **保存设置**
 
-![image-20220811152946173](https://pic.xinsong.xyz/img/202208111529275.png)
+![image-20221202142329767](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021423917.png)
 
 
 

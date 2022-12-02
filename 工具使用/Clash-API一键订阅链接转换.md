@@ -54,7 +54,7 @@
 
 1. 输入的订阅/节点链接（有多个需要分行写）。
 
-![image-20220801195425903](https://pic.xinsong.xyz/img/202208011954102.png)
+![image-20220801195425903](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021516706.png)
 
 2. 选择客户端，这里选择Clash。
 3. 选择后端地址，留空或者默认即可。

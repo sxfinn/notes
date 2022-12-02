@@ -23,7 +23,7 @@ jsDelivr凉了，因此一直在寻找新的个站图片存储方案，最终还
 
 购买链接：https://curl.qcloud.com/CcQyuzkZ
 
-![image-20220518124256171](https://pic.xinsong.xyz/img/202205182112358.png)
+![image-20220518124256171](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021514174.png)
 
 ### 创建存储桶列表
 
@@ -33,18 +33,18 @@ jsDelivr凉了，因此一直在寻找新的个站图片存储方案，最终还
 
 * 来到腾讯云[对象存储](https://cloud.tencent.com/product/cos?from=10680)控制台，创建存储
 
-![image-20220518122221501](https://pic.xinsong.xyz/img/202205182112644.png)
+![image-20220518122221501](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021514925.png)
 
-![image-20220518122519936](https://pic.xinsong.xyz/img/202205182112631.png)
+![image-20220518122519936](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021514032.png)
 
 * 高级配置可以不去管它
 
-![image-20220518122547786](https://pic.xinsong.xyz/img/202205182112564.png)
+![image-20220518122547786](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021515045.png)
 
 - 访问权限选择**公有读私有写**，否则图片无法读取，其他的根据自己往下填写就可以。 地域建议离你所在的位置越近越好。 
 - 腾讯云头像–>[访问管理](https://cloud.tencent.com/product/cam?from=10680)–> [API密钥管理](https://cloud.tencent.com/product/ssm?from=10680)，创建密钥，就会生成 **APPID、SecretId和SecretKey**
 
-![image-20220518122910316](https://pic.xinsong.xyz/img/202205182112956.png)
+![image-20220518122910316](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021515196.png)
 
 ### 配置Picgo
 
@@ -59,9 +59,9 @@ jsDelivr凉了，因此一直在寻找新的个站图片存储方案，最终还
 
 ​		记得设置为默认图床，否则picgo不会默认上传到COS；
 
-![image-20220518123144471](https://pic.xinsong.xyz/img/202205182112463.png)
+![image-20220518123144471](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021515357.png)
 
-![image-20220518123240046](https://pic.xinsong.xyz/img/202205182112589.png)
+![image-20220518123240046](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021515396.png)
 
 ### 配置Typora
 
@@ -69,7 +69,7 @@ jsDelivr凉了，因此一直在寻找新的个站图片存储方案，最终还
 
 ---
 
-![image-20220519105752449](https://pic.xinsong.xyz/img/202205191057648.png)
+![image-20220519105752449](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021515964.png)
 
 验证图片上传选项成功即可。
 

@@ -49,7 +49,7 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 
 Hexo会自动合并主题中的_`config.yml`和 `_config.butterfly.yml`里的配置，如果存在同名配置，会使用_`config.butterfly.yml`的配置，其优先度较高。
 
-![image-20220706220927840](https://pic.xinsong.xyz/img/202207062209946.png)
+![image-20221202145452667](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021454808.png)
 
 
 
