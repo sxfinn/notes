@@ -126,7 +126,7 @@
 
 4. 进入解析记录页后，单击**添加记录**按钮，开始设置解析记录。
 
-   （这里我添加pic.xinsong.xyz域名进行演示）
+   （这里我添加pic子域名域名进行演示）
 
 ![image-20220518133245705](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021511185.png)
 

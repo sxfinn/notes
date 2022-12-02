@@ -4,7 +4,7 @@
 
 Hexo是我们博客的框架，我们需要在我们的电脑里创建一个文件夹，可以命名为Blog，Hexo框架与你发布的博客网页以后都会在这个文件中。创建好后进入文件夹中，按住shift键，右键鼠标点击打开powershell窗口；
 
-![image-20221202141051004](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021410085.png)
+<img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021410085.png" alt="image-20221202141051004" style="zoom:33%;" />
 
 打开后
 
@@ -308,11 +308,7 @@ GitHub Page推荐我们通过DNS提供商在配置一个主域名同时配置一
 
 进入Blog/blog/source目录下，创建一个记事本文件，输入GitHub Page页面的Custom domain。这里建议是带www的域名。
 
-
-
-
-
-![image-20221202141355440](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021413489.png)
+<img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021413489.png" alt="image-20221202141355440" style="zoom:50%;" />
 
 保存即可，命名为**CNAME**，注意保存类型选择**所有文件**而不是**文本文件**。
 

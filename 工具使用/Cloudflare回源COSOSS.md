@@ -2,7 +2,7 @@
 
 Cloudflare常应用在网站建设中，不仅省心还省钱。HTTPS 证书实在是太贵了, 一个通配符域名证书一年要至少花上一两千. 那么如何满足广大人民群众建站需求呢? Cloudflare 就是一个很好的选择. Cloudflare 是一家 CDN 提供商, 可以为网站提供反向代理. 它的做法是, 将域名解析到 Cloudflare 的服务器 (或者说代理) 上, 然后浏览器使用 Cloudflare 的证书与代理建立 SSL 连接; 接着代理会与目标服务器使用自签名的证书建立 SSL 连接, 接下来的数据都由代理转发. Cloudflare 会信任这个自签名证书, 所以整个过程都是没问题的.
 
-![image-20220827180550205](https://pic.xinsong.xyz/img/202208271805226.png)
+![image-20220827180550205](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021707353.png)
 
 Cloudflare确实良心，我们也可以将其应用在图床上，就可以隐藏我们真是的源站地址。本文将以腾讯云COS为例，使用Cloudflare为COS开启CDN服务，让我们的站点更安全，阿里OSS同样适用，只有略微差别。
 
@@ -81,7 +81,7 @@ Cloudflare确实良心，我们也可以将其应用在图床上，就可以隐�
 
 * **修改DNS服务器为Cloudflare的，将CF分配给我们的域名填入下方框框保存即可**
 
-![image-20220827170654518](https://pic.xinsong.xyz/img/202208271706562.png)
+![image-20220827170654518](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021708082.png)
 
 
 
