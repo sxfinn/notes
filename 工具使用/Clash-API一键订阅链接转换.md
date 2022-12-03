@@ -147,8 +147,6 @@ https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Fcate.com&inser
 
 根据我自身的使用情况，我选择的参数配置为true的有：**emoij，udp，expand，scv，clash新字段名**。（许多后端默认开启expand：展开规则全文到订阅，因此可以不写expand参数）。
 
-
-
 最终得到的链接导入客户端即可。
 
 

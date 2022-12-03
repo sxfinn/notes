@@ -1,8 +1,4 @@
-## VScode中配置 C/C++ 环境
-
-
-
-#### 1. 下载编辑器VScode
+### 下载编辑器VScode
 
 - 官网：https://code.visualstudio.com/
 
@@ -12,13 +8,13 @@
 
 - 安装VScode（建议附加任务全部勾选）
 
-  ![vscode安装](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021529086.gif)
+  <img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021529086.gif" alt="vscode安装" style="zoom:67%;" />
 
  
 
  
 
-#### 2. 下载编译器MinGW并解压
+### 下载编译器MinGW并解压
 
 - 官网页面：https://www.mingw-w64.org/
 
@@ -32,7 +28,7 @@
 
 - 下载页面中选择 `x86_64-win32-seh` 下载
 
-  ![mingw下载](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021529461.png)
+  <img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021529461.png" alt="mingw下载" style="zoom:50%;" />
 
   > 如果你因为网络环境限制无法下载
   >
@@ -40,7 +36,7 @@
 
 - 在C盘中解压文件
 
-  ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021530923.gif)
+  <img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021530923.gif" alt="img" style="zoom:67%;" />
 
   > 理论上你可以在任何地方解压，但注意路径不能包含中文，至于特殊字符请自行测试
 
@@ -48,27 +44,27 @@
 
  
 
-#### 3. 将MinGW添加至环境变量
+### 将MinGW添加至环境变量
 
 - 进入mingw64下的bin文件夹，复制当前路径，Win + i唤起系统设置，输入高级系统设置并进入，点击环境变量，选择path，编辑，新建，粘贴路径，按下三个确定
 
-  ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021530015.gif) 
+  <img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021530015.gif" alt="img" style="zoom: 67%;" /> 
 
 
 
 
 
-#### 4. 配置VScode插件
+### 配置VScode插件
 
 - 打开VScode安装插件 `Chinese` 和 `C/C++` ，等待安装完毕后重启VScode
 
-  ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021530660.gif)
+  <img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021530660.gif" alt="img" style="zoom: 67%;" />
 
    
 
 - 切换C/C++插件至 `1.8.4` 版本（非必要，不过对于小白来说更方便，此版本运行即自动配置）
 
-  ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021531705.png)
+  <img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021531705.png" alt="img" style="zoom: 67%;" />
 
   > 因最新版本不会自动生成launch.json文件，给后续优化带来不便，故退回旧版本。
 
@@ -76,7 +72,7 @@
 
 
 
-#### 5. 运行代码
+### 运行代码
 
 - 新建文件夹，修改为英文名称并进入，右键 `通过Code打开` 若在安装时未勾选相关选项，可能没有这个选项，请自行在VScode内操作打开文件夹
 
@@ -100,13 +96,13 @@
 
 - VScode菜单栏，点击运行，启动调试，稍等程序运行，输出结果在下方终端，上方调试面板，点击最右边的 <strong style="color:#ffc000;">`橙色方框` </strong>停止程序运行
 
-![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021531504.gif)
+<img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021531504.gif" alt="img" style="zoom:50%;" />
 
  
 
  
 
-#### 6. 调整和优化
+### 调整和优化
 
 > 请根据自己的需要进行优化
 >
@@ -176,7 +172,7 @@
 
 
 
-#### 7. 提示
+### 提示
 
 - 若源代码文件夹含有中文路径，将会无法编译程序。
 - 若你的Windows用户名使用了中文，可能无法运行。

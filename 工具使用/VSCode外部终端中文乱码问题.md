@@ -1,4 +1,4 @@
-## VSCode中解决终端的中文乱码问题
+> 转载自：https://www.cnblogs.com/stu-jyj3621
 
 在处理这个问题之前，你首先得知道为什么会出现这个这个问题。
 
@@ -10,7 +10,7 @@
 
 所以我们解决乱码的方式，就是将两者的编码方式统一就行，要么将两者都统一为UTF-8，要么就统一为GBK。（个人建议统一为GBK）
 
-<img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021532483.png" alt="image-20221101153757881" style="zoom: 50%;" />
+<img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021532483.png" alt="image-20221101153757881" style="zoom: 33%;" />
 
 
 
@@ -21,8 +21,6 @@ VSCode终端其实调用的是cmd.exe，所以当这里出现中文乱码的时�
 1. 可以通过 chcp 命令查看 cmd 的编码设置，GBK2312 的代码页编号是 *936*，然后改成utf-8的编码即可；
 2. utf-8 对应的代码页编号是 65001 ，所以执行 **chcp 65001** 就可以把cmd的编码设置成uft-8了；
 3. 这样就解决了乱码问题，然后可以再次运行代码查看输出 ；
-
-
 
 ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021532846.png)
 
@@ -86,8 +84,3 @@ VScode默认是UTF-8编码格式，我们要做的是更改VScode的默认编码
 同时，把字体修改为 **`Lucida Console`**。
 
  
-
-转载自：https://www.cnblogs.com/stu-jyj3621
-
-
-

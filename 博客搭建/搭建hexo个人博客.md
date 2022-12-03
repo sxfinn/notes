@@ -4,7 +4,7 @@
 
 Hexo是我们博客的框架，我们需要在我们的电脑里创建一个文件夹，可以命名为Blog，Hexo框架与你发布的博客网页以后都会在这个文件中。创建好后进入文件夹中，按住shift键，右键鼠标点击打开powershell窗口；
 
-<img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021410085.png" alt="image-20221202141051004" style="zoom:33%;" />
+<img src="https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021410085.png" alt="image-20221202141051004" style="zoom: 33%;" />
 
 打开后
 
@@ -69,6 +69,8 @@ hexo server -s #静态模式
 hexo server -p 5000 #更改端口
 hexo server -i 192.168.1.1 #自定义 IP
 hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令
+
+---
 
 
 
@@ -209,6 +211,8 @@ hexo d
 
 ![image-20221202141256423](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021412022.png)
 
+---
+
 
 
 ## 绑定域名
@@ -294,10 +298,6 @@ GitHub Page推荐我们通过DNS提供商在配置一个主域名同时配置一
 
 
 
-参考：[管理 GitHub Pages 站点的自定义域 - GitHub Docs](https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
-
-
-
 3. 登录GitHub，进入之前创建的仓库，点击setting，设置Custom domain，输入你的域名。
 
 ![image-20221202141347251](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021413328.png)
@@ -325,6 +325,8 @@ hexo d
 ```
 
 这时候无论怎么折腾，我们在浏览器中输入我们的域名，就可以访问我们的网站了。
+
+---
 
 
 
@@ -356,6 +358,9 @@ GitHub Page推荐我们在配置一个主域名的同时配置一个 `www` 子�
 
 你可以使用除了 `www` 以外的一个自定义子域名和一个自定义顶端域名来通过域名重定向（有时候也叫“域名转发”）。但是，请注意，这只能用于用户和组织的 Pages，而不是项目的 Pages。
 
+---
 
+参考文章：
 
-参考：[在你的 DNS 提供者上配置 A 记录的技巧 - GitHub Pages 指南 - UDN开源文档](https://doc.yonyoucloud.com/doc/wiki/project/github-pages-basics/tip-record.html)
+1. [在你的 DNS 提供者上配置 A 记录的技巧 - GitHub Pages 指南 - UDN开源文档](https://doc.yonyoucloud.com/doc/wiki/project/github-pages-basics/tip-record.html)
+2. [管理 GitHub Pages 站点的自定义域 - GitHub Docs](https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)

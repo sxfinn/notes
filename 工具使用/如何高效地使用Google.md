@@ -1,3 +1,5 @@
+> 转载自 GarveyZhong https://blog.imzjw.cn/posts/aae542e3/
+
 ## 前言
 
 今天在 Dev 社区看到的这篇帖子，虽然自己天天用 Google，但是这些技巧却不是那么的熟悉，所以分享给大家。
@@ -104,6 +106,3 @@ e.g `ecmascript 2016..2018`
 
 ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021507228.webp)
 
-
-
-> 转载自 GarveyZhong https://blog.imzjw.cn/posts/aae542e3/

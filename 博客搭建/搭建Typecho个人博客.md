@@ -1,4 +1,4 @@
-## 搭建Typecho个人博客教程
+## 简介
 
 ![image-20221202141814622](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021418853.png)
 
@@ -7,8 +7,6 @@
 
 
 ### 特性
-
----
 
 **扩展**
 
@@ -26,18 +24,16 @@ Typecho的程序本体不到500KB，而它的数据表在不包括扩展生成�
 
 Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.wikipedia.org/wiki/响应式网页设计)。所以Typecho的大多数自制模板，都采用了自适应设计。
 
-
-
-### 准备
-
 ---
+
+
+
+## 准备
 
 - [x] **云服务器一台**
 - [x] **域名一个**（如果是国内服务器需要备案）
 
 ### 本教程使用的环境
-
----
 
 * **CentOS 7.9.2009 x86_64(Py3.7.9)**
 * **宝塔面板腾讯云专享版 7.9.3（预装）**
@@ -56,11 +52,11 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 * **php-8.0**
 * **phpmyadmin-5.1**
 
-
-
-### 开始搭建
-
 ---
+
+
+
+## 开始搭建
 
 * **添加站点**
 
@@ -79,8 +75,6 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 
 
 ### 上传Typecho文件
-
----
 
 * **进入Typecho官网下载正式版**  [下载 - Typecho Official Site](https://typecho.org/download)
 
@@ -110,8 +104,6 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 
 ### 解析域名
 
----
-
 * **进入域名控制台，添加解析记录**
 * **将你的域名解析到服务器的ip地址**
 
@@ -122,8 +114,6 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 
 
 ### 安装Typecho
-
----
 
 * **浏览器地址栏输入域名xinsong.xyz**
 
@@ -151,8 +141,6 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 
 ### 设置伪静态和地址重写
 
----
-
 这一步尤其重要，正确设置伪静态和固定链接可以保证网站被正常访问，顺序一定不要搞错了，先在宝塔设置伪静态规则，再设置Typecho固定链接，否则会开启固定链接会报错，未报错也可能导致除首页之外的任何页面都访问不了。
 
 若未设置伪静态直接启用地址重写会报错，坚持开启则会导致无法访问网站文章。
@@ -179,11 +167,11 @@ Typecho的默认模板和后台，全部采用了[响应式设计](https://zh.m.
 
 ![image-20221202142329767](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021423917.png)
 
-
-
-### 主题 & 插件
-
 ---
+
+
+
+## 主题 & 插件
 
 Typecho 博客本身不带主题/插件商店，因此主题和插件需要自己到论坛、网上去找，下载后上传到网站目录的相应文件夹中，再到网站后台启用即可。
 
@@ -195,8 +183,6 @@ Typecho 博客本身不带主题/插件商店，因此主题和插件需要自�
 
 ### 安装过程可能会遇到的问题
 
----
-
 1. **开启放跨站攻击无法访问站点**（宝塔默认开启）
 
 ​		解决方法一：[宝塔默认启用"防止跨站"攻击后，网站打不开，善用open_basedir参数](http://sebcxy.com/article/95)
@@ -207,19 +193,19 @@ Typecho 博客本身不带主题/插件商店，因此主题和插件需要自�
 
 ​		解决方法：开启伪静态
 
+---
 
+参考文章：
 
-**本文参考**：
+1. [30分钟搭建 Typecho 个人博客教程 - 知乎](https://zhuanlan.zhihu.com/p/34211709)
 
-[30分钟搭建 Typecho 个人博客教程 - 知乎](https://zhuanlan.zhihu.com/p/34211709)
+2. [宝塔面板安装Typecho开发版本 – 一个轻量的博客程序 - 大鸟博客](https://www.daniao.org/11348.html)
 
-[宝塔面板安装Typecho开发版本 – 一个轻量的博客程序 - 大鸟博客](https://www.daniao.org/11348.html)
+3. [博客搭建Typecho个人博客搭建，快速安装，超小白（很简单的） - 掘金](https://juejin.cn/post/6847902219690328071#heading-3)
 
-[【博客搭建】Typecho个人博客搭建，快速安装，超小白（很简单的） - 掘金](https://juejin.cn/post/6847902219690328071#heading-3)
+4. [宝塔typecho的伪静态是选择typecho还是typecho2-Web技术-全球主机交流论坛 - Powered by Discuz!](https://91ai.net/thread-844024-3-1.html)
 
-[宝塔typecho的伪静态是选择typecho还是typecho2-Web技术-全球主机交流论坛 - Powered by Discuz!](https://91ai.net/thread-844024-3-1.html)
-
-[宝塔默认启用"防止跨站"攻击后，网站打不开，善用open_basedir参数](http://sebcxy.com/article/95)
+5. [宝塔默认启用"防止跨站"攻击后，网站打不开，善用open_basedir参数](http://sebcxy.com/article/95)
 
 
 

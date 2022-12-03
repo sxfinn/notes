@@ -1,8 +1,4 @@
-##  Centos升级git版本
-
 本文讲述如何升级 centos 系统的 git 版本。高版本 git 增加了一些好用的功能，比如"git pull 支持指定项目目录"等。本文以 centos6/7 为例讲解。
-
-> 本文参考了文档[centos 6.x/7.x 使用 yum 升级 git 版本 (opens new window)](https://blog.slogra.com/post-721.html)。
 
 
 
@@ -129,5 +125,9 @@ Complete!
 git version 2.31.1
 ```
 
+---
 
+参考文章：
+
+1. [centos 6.x/7.x 使用 yum 升级 git 版本 (opens new window)](https://blog.slogra.com/post-721.html)。
 

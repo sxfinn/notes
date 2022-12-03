@@ -25,6 +25,8 @@
 - **最小：** 3.1 GB的HDD空间仅用于MATLAB，典型安装为5-8 GB，完整安装所有MathWorks产品可能会占用多达31 GB的磁盘空间
 - **推荐：推荐**使用SSD
 
+---
+
 
 
 ## 安装
@@ -75,6 +77,8 @@
 * 完成
 
 ![image-20220518214546071](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021521972.png)
+
+---
 
 
 

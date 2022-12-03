@@ -1,8 +1,4 @@
-### Centos7.6安装python3
-
----
-
-#### 1.安装相应的编译工具
+### 安装相应的编译工具
 
 建议在root下操作，会方便很多，一定要安装，否则编译安装会报错。
 
@@ -17,25 +13,25 @@ yum install zlib* -y
 yum install yum-utils
 ```
 
-#### 2.下载安装包
+### 下载安装包
 
 ```shell
 wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tar.xz
 ```
 
-#### 3.解压
+### 解压
 
 ```shell
 tar -xvJf  Python-3.9.12.tar.xz
 ```
 
-#### 4.创建编译安装目录
+### 创建编译安装目录
 
 ```shell
 mkdir /usr/local/python3
 ```
 
-#### 5.安装
+### 安装
 
 ```shell
 cd Python-3.7.2
@@ -52,7 +48,7 @@ make && make install
 
 参考链接：https://stackoverflow.com/questions/41405728/what-does-enable-optimizations-do-while-compiling-python
 
-#### 6.创建软链接
+### 创建软链接
 
 相当于windows环境变量，如下写不会默认还是Python2.7，不需要修改yum配置。
 
@@ -77,14 +73,14 @@ ln -sf 即参数多加个f即可
 ln -sf /usr/local/python3/bin/python3.9 /bin/python3
 ```
 
-#### 7.验证是否成功
+### 验证是否成功
 
 ```shell
 python3 -V
 pip3 -V
 ```
 
-#### 8.报错处理
+### 报错处理
 
 **错误1.**
 
@@ -115,7 +111,7 @@ yum -y install libffi-devel
 
 [参考文章](https://blog.csdn.net/elija940818/article/details/79238813)
 
-#### 9.安装pipenv
+### 安装pipenv
 
 在centos中使用python3.7或以上版本,进行pip install 命令容易报错
 
@@ -136,7 +132,7 @@ make && make install
 即可正常使用pip安装.
 这个也在安装python的时候指定了.
 
-#### 10.修改pip安装源
+### 修改pip安装源
 
 修改系统pip安装源
 在家目录下新建.pip文件夹,进入文件夹新建文件pip.conf之后写入相应镜像网站地址

@@ -6,6 +6,8 @@ LTS为对于大多数用户推荐的版本，一般来说没有特殊需求我�
 
 ![image-20220706154050887](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021524816.png)
 
+
+
 ## 安装
 
 1. 勾选协议，点击next
@@ -32,6 +34,8 @@ LTS为对于大多数用户推荐的版本，一般来说没有特殊需求我�
 
 ![image-20220706160239109](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021524303.png)
 
+
+
 ## 验证是否正常安装
 
 注意安装Node.js会包含环境变量及npm的安装，安装后，检测Node.js是否安装成功，在命令行中输入 node -v :
@@ -46,9 +50,7 @@ LTS为对于大多数用户推荐的版本，一般来说没有特殊需求我�
 
 ### 解决方法
 
----
-
-（未出现问题可直接跳过这一步）
+未出现问题可直接跳过这一步
 
 **npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead报错解决方法。**
 
@@ -106,10 +108,8 @@ npm-windows-upgrade
 
 
 
-问题解决链接参照：
+参考文章：
 
-[npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead. 怎么解决-前端-CSDN问答](https://ask.csdn.net/questions/7733789)
-
-https://github.com/npm/cli/issues/4980
-
-https://blog.csdn.net/weixin_42288182/article/details/106896534
+1. [npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead. 怎么解决-前端-CSDN问答](https://ask.csdn.net/questions/7733789)
+2. https://github.com/npm/cli/issues/4980
+3. https://blog.csdn.net/weixin_42288182/article/details/106896534

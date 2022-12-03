@@ -106,6 +106,8 @@
 
 ![img](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021510913.png)
 
+---
+
 
 
 ## 解析CDN域名
@@ -146,6 +148,8 @@
 
 ![image-20220518133618125](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021512155.png)
 
+---
+
 
 
 ## 配置CND域名
@@ -162,8 +166,6 @@
 
 ### 申请ssl证书
 
----
-
 通常一个ssl证书只能绑定一个域名，即使是子域名也是需要的。因此还需要申请一个证书并且绑定我们的CDN域名。
 
 腾讯云提供了免费的证书申请，期限为一年过期了重新申请就行。
@@ -177,8 +179,6 @@
 比较简单，具体参照官方文档。
 
 ### 添加证书
-
----
 
 申请结束后，进入“https配置”中添加证书；
 
@@ -194,6 +194,10 @@ https配置指南：https://cloud.tencent.com/document/product/228/41687
 2. 开启HTTPS强制跳转；
 
 ![image-20220518140519520](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021514606.png)
+
+---
+
+
 
 ## Picgo配置
 
@@ -217,14 +221,11 @@ https配置指南：https://cloud.tencent.com/document/product/228/41687
 
 
 
-**最新更详细的内容请参考**：
+参考文章：
 
-[对象存储 开启自定义 CDN 加速域名-控制台指南-文档中心-腾讯云](https://cloud.tencent.com/document/product/436/36637)
+1. [对象存储 开启自定义 CDN 加速域名-控制台指南-文档中心-腾讯云](https://cloud.tencent.com/document/product/436/36637)
+2. [内容分发网络 CDN 接入域名-快速入门-文档中心-腾讯云](https://cloud.tencent.com/document/product/228/41215)
+3. [内容分发网络 CDN 配置 CNAME-快速入门-文档中心-腾讯云](https://cloud.tencent.com/document/product/228/3121)
+4. [内容分发网络 CDN 配置指南-文档中心-腾讯云](https://cloud.tencent.com/document/product/228/37851)
+5. [内容分发网络 CDN 域名配置-配置指南-文档中心-腾讯云](https://cloud.tencent.com/document/product/228/6283)
 
-[内容分发网络 CDN 接入域名-快速入门-文档中心-腾讯云](https://cloud.tencent.com/document/product/228/41215)
-
-[内容分发网络 CDN 配置 CNAME-快速入门-文档中心-腾讯云](https://cloud.tencent.com/document/product/228/3121)
-
-[内容分发网络 CDN 配置指南-文档中心-腾讯云](https://cloud.tencent.com/document/product/228/37851)
-
-[内容分发网络 CDN 域名配置-配置指南-文档中心-腾讯云](https://cloud.tencent.com/document/product/228/6283)

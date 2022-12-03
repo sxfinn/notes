@@ -10,8 +10,6 @@
 
 **PyCharm3.0默认快捷键(翻译)PyCharm Default Keymap**
 
-参考自:https://www.jianshu.com/p/e59fb61808a0
-
 **1、编辑（Editing）**
 
 Ctrl + Space  基本的代码完成（类、方法、属性）
@@ -259,3 +257,8 @@ Ctrl + Alt + S　打开设置页
 Ctrl + Shift + A查找编辑器里所有的动作
 
 Ctrl + Tab在窗口间进行切换
+
+文章参考：
+
+1. [pycharm快捷键、常用设置、包管理 - 简书](https://www.jianshu.com/p/e59fb61808a0)
+
