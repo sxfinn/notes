@@ -1,3 +1,11 @@
+## 简介
+
+![image-20221204160409091](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212041604310.png)
+
+Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 [Markdown](http://daringfireball.net/projects/markdown/)（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
+
+
+
 ## 安装hexo
 
 安装hexo之前需要安装Nodejs组件，这个在我的另一篇文章：

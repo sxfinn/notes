@@ -1,3 +1,13 @@
+## 简介
+
+![image-20221204160741941](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212041607057.png)
+
+简单的说 Node.js 就是运行在服务端的 JavaScript。
+
+Node.js 是一个基于 Chrome JavaScript 运行时建立的一个平台。 是一个事件驱动 I/O 服务端 JavaScript 环境，基于 Google 的 V8 引擎，V8 引擎执行 Javascript 的速度非常快，性能非常好。
+
+
+
 ## 下载
 
 进入官网-[Download | Node.js](https://nodejs.org/en/download/)
@@ -36,7 +46,7 @@ LTS为对于大多数用户推荐的版本，一般来说没有特殊需求我�
 
 
 
-## 验证是否正常安装
+## 验证是否成功安装
 
 注意安装Node.js会包含环境变量及npm的安装，安装后，检测Node.js是否安装成功，在命令行中输入 node -v :
 
@@ -110,6 +120,7 @@ npm-windows-upgrade
 
 参考文章：
 
-1. [npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead. 怎么解决-前端-CSDN问答](https://ask.csdn.net/questions/7733789)
-2. https://github.com/npm/cli/issues/4980
-3. https://blog.csdn.net/weixin_42288182/article/details/106896534
+1. [node.js - How do I update npm on Windows? - Stack Overflow](https://stackoverflow.com/questions/26908899/how-do-i-update-npm-on-windows)
+2. [npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead. 怎么解决-前端-CSDN问答](https://ask.csdn.net/questions/7733789)
+3. https://github.com/npm/cli/issues/4980
+4. https://blog.csdn.net/weixin_42288182/article/details/106896534

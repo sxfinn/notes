@@ -1,3 +1,5 @@
+## 简介
+
 Cloudflare常应用在网站建设中，不仅省心还省钱。HTTPS 证书实在是太贵了, 一个通配符域名证书一年要至少花上一两千. 那么如何满足广大人民群众建站需求呢? Cloudflare 就是一个很好的选择. Cloudflare 是一家 CDN 提供商, 可以为网站提供反向代理. 它的做法是, 将域名解析到 Cloudflare 的服务器 (或者说代理) 上, 然后浏览器使用 Cloudflare 的证书与代理建立 SSL 连接; 接着代理会与目标服务器使用自签名的证书建立 SSL 连接, 接下来的数据都由代理转发. Cloudflare 会信任这个自签名证书, 所以整个过程都是没问题的.
 
 ![image-20220827180550205](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021707353.png)
@@ -6,7 +8,7 @@ Cloudflare确实良心，我们也可以将其应用在图床上，就可以隐�
 
 
 
-### 腾讯云COS配置
+## 腾讯云COS配置
 
 * **开通COS进入存储桶列表，创建存储桶**
 
@@ -38,7 +40,7 @@ Cloudflare确实良心，我们也可以将其应用在图床上，就可以隐�
 
 
 
-### Cloudflare配置
+## Cloudflare配置
 
 * **注册账号，登录Cloudflare**
 * **添加站点**（我们在腾讯云添加的自定义源站域名的主域名）
@@ -55,7 +57,7 @@ Cloudflare确实良心，我们也可以将其应用在图床上，就可以隐�
 
 
 
-### 更换DNS服务器到Cloudflare
+## 更换DNS服务器到Cloudflare
 
 我们如果想要使用Cloudflare的CDN和解析服务需要将DNS服务器更改为CF的。
 
@@ -88,7 +90,7 @@ Cloudflare确实良心，我们也可以将其应用在图床上，就可以隐�
 
 
 
-### 添加CNAME解析记录
+## 添加CNAME解析记录
 
 * **为刚刚的自定义源站域名添加CNAME记录指向原始的源站访问域名，并开启CF代理**（打开小云朵表示开启CDN加速）
 * **保存**
@@ -114,3 +116,12 @@ Cloudflare可以和国内CDN结合，达到国内IP走国内CDN，国外IP走Clo
 
 **方案**：一个域名既作为COS源站的CDN加速域名，又作为Cloudflare代理COS源站的自定义域名。
 
+---
+
+参考文章：
+
+1. [cloudflare使用入门教程，国外最好免费CDN - 知乎](https://zhuanlan.zhihu.com/p/82909515)
+2. [cloudflare+freenom创建自己的域名网站 | Healthy Mind](https://jackyangjie.github.io/2021/04/21/cloudflare-freenom%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E7%BD%91%E7%AB%99/)
+3. [Cloudflare 入门教程：使用 Cloudflare 免费 CDN 加速 & 保护自己的网站 - 知乎](https://zhuanlan.zhihu.com/p/97389072)
+4. [通过Cloudflare开启全站https_Thomas_Lean的博客-CSDN博客_cloudflare https](https://blog.csdn.net/Lin_Hv/article/details/106614804)
+5. [Cloudflare or Vercel —— 网站托管与函数计算服务选择](https://blog.lv5.moe/p/website-hosting-and-function-computing-service-selection)

@@ -2,13 +2,13 @@ WordPress 是一个 CMS 管理系统，也就是说，WordPress 的文章、页�
 
 
 
-### 为什么要设置伪静态？
+### 为什么要设置伪静态
 
 默认安装环境下，我们访问 WordPress 文章页的 URL 地址为 `https://exaple.com/index.php?p=123`，这个 URL 中，example.com 是我们的域名，“index.php” 就是我们上面说到的 WordPress 页面入口文件，`?p=123` 是这个 URL 的参数，其中 `123` 为页面 ID，index.php 就是根据这个页面 ID 从 [WordPress 数据库](https://www.wpzhiku.com/tag/wordpress数据库/)中获取页面内容，生成页面展示给我们的。
 
 
 
-### 怎么去掉 index.php？
+### 怎么去掉 index.php
 
 为了让 URL 更好看一些，对 SEO 更友好一些，很多朋友都会想把这个 index.php 去掉，怎么办到呢？很简单，在 WordPress 的「**设置 > 固定链接**」设置中选择除了「**朴素**」之外的其他选项就可以了，保存之后，我们就为 WordPress 开启了伪静态设置。
 

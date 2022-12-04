@@ -106,3 +106,9 @@ Netflix 可在 Windows 电脑或平板电脑上支持超高清格式。 如需�
 - 显示器不是HDMI2.0或者DP1.4以上接口；
 - 没有使用HDMI2.0及以上或者DP1.4及以上的传输线；
 - 显卡不是HDMI2.0或者DP1.4以上接口；
+
+---
+
+参考视频：
+
+1. [用PC显示器正确看奈飞4K片源|下载微软免费HEVC视频扩展插件|换区下载奈飞APP - YouTube](https://www.youtube.com/watch?v=xjTn9pgmKqM&ab_channel=jc-nf%E9%82%A3%E5%9D%A8)

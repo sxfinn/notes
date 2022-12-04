@@ -1,3 +1,5 @@
+> 转载自：[【教程】VScode中配置C语言/C++运行环境_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Cu411y7vT/?spm_id_from=333.880.my_history.page.click&vd_source=1abbb8d283902a924ee10e192a4f108b)
+
 ### 下载编辑器VScode
 
 - 官网：https://code.visualstudio.com/

@@ -112,8 +112,9 @@ sudo make install
 2. concept(预计可以比较好的简化反射相关的代码) 
 3. modules
 
-
+---
 
 参考文章：
 
-1. 本文参考：[升级GCC版本到11.1 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1894845)
+1. [升级GCC版本到11.1 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1894845)
+

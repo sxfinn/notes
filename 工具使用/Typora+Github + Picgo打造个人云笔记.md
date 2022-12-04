@@ -1,4 +1,4 @@
-### 创建仓库
+## 创建仓库
 
 1. **如图创建一个新的仓库**
 
@@ -27,7 +27,11 @@
 * 仓库名格式如上：`用户名` + `仓库名`
 * 分支名根据你的远程分支自行指定
 
-### Token的生成
+---
+
+
+
+## 生成TOKEN
 
 进入GitHub网站的设置页面
 
@@ -65,7 +69,11 @@
 
 8. 点击生成。
 
-### Picgo配置
+---
+
+
+
+## Picgo配置
 
 - 点击左边图床设置，**选择GitHub图床**，具体配置如下
 - 设定仓库名，填写：**GitHub名/库名**
@@ -86,7 +94,11 @@
 
 时间戳可以防止命名冲突。
 
-### 免费CDN：jsDelivr+Github
+---
+
+
+
+## 免费CDN：jsDelivr+Github
 
 如果默认不适用自定义域名，**github**里边这个地方是比较蛋疼的一点，上传的图片啥的，他会给你上传到另一个**文件服务器**里边，这个地址国内不使用vpn是无法访问的，而我们**本地typora的图片链接**和**GitHub远端存储**的链接是一样的，通常如下：`https://raw.githubusercontent.com/sxfinn/Pic/master/img/202204120923663.png`。
 
@@ -133,9 +145,11 @@
 1. camo.githubusercontent.com ...
 2. cdn.jsdelivr.net/gh ...
 
+---
 
 
-### Typora设置
+
+## Typora设置
 
 * **进入typora偏好设置**
 
@@ -167,7 +181,13 @@
 
 ![image-20220518220025767](https://cdn.jsdelivr.net/gh/sxfinn/CDN/img/202212021529731.png)
 
+---
 
+参考文章：
 
-**大功告成。**
+1. [PicGo图床与Typora（PicGo+Typora+GitHub的完整设置） - 知乎](https://zhuanlan.zhihu.com/p/168729465)
+2. [搭建自己的图床 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1789847)
+3. [Github+jsDelivr+PicGo 打造稳定快速、高效免费图床 - 简书](https://www.jianshu.com/p/a36e9c64361d)
+4. [使用jsdelivr+Github加速文件 - 银狐笔记](https://www.ityinhu.com/365.html)
+5. [快速免费的公用 CDN —— jsDelivr - Rogn - 博客园](https://www.cnblogs.com/lfri/p/12212878.html)
 

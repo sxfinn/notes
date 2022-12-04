@@ -1,7 +1,3 @@
-## Linux修改镜像源
-
-手动更改的话
-
 ## Ubuntu
 
 Ubuntu 打开并修改 `/etc/apt/sources.list` 文件即可

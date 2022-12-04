@@ -1,3 +1,5 @@
+> 转载自：[简易教程 | Clash | 自定义在线分流规则策略组 - Yatta漫游小镇](https://yattazen.com/tutorial/clash-custom-config.html)
+
 ## 简介
 
 Clash for Windows（CFW）应该是目前Windows和macOS上最好用的基于规则的跨平台代理工具软件，允许用户可视化操作和支持主流SS/V2ray/Trojan多协议。Clash.Net在此基础上对UI进行了美化，也推荐使用。
@@ -14,6 +16,8 @@ Clash for Windows（CFW）应该是目前Windows和macOS上最好用的基于规
 → **`转码托管机场订阅和分流策略组文件地址`**
 → **`将转码后的分流策略组文件地址正确放入订阅转换API链接中`**
 → **`导入最终配置文件链接到CFW`**
+
+---
 
 
 

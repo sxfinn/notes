@@ -6,6 +6,10 @@
 
 > 自2022年5月9日起，对象存储（Cloud Object Storage，COS）服务将不再支持新增默认 CDN 加速域名。您已开启、或曾经开启的默认 CDN 加速域名不会受到影响，可以继续使用，但建议您使用自定义 CDN 加速域名代替默认 CDN 加速域名。关于自定义 CDN 加速域名的操作指引，请参见 [开启自定义 CDN 加速域名](https://cloud.tencent.com/document/product/436/36637) 文档。
 
+---
+
+
+
 ## 接入域名
 
 步骤如下：
@@ -152,7 +156,7 @@
 
 
 
-## 配置CND域名
+## 配置CDN域名
 
 进入CDN控制台—>域名管理—>要配置的域名
 
@@ -219,7 +223,7 @@ https配置指南：https://cloud.tencent.com/document/product/228/41687
 
 到此就结束了，我们可以使用腾讯云提供的CDN服务了。
 
-
+---
 
 参考文章：
 
@@ -228,4 +232,5 @@ https配置指南：https://cloud.tencent.com/document/product/228/41687
 3. [内容分发网络 CDN 配置 CNAME-快速入门-文档中心-腾讯云](https://cloud.tencent.com/document/product/228/3121)
 4. [内容分发网络 CDN 配置指南-文档中心-腾讯云](https://cloud.tencent.com/document/product/228/37851)
 5. [内容分发网络 CDN 域名配置-配置指南-文档中心-腾讯云](https://cloud.tencent.com/document/product/228/6283)
+6. [腾讯云cos接入腾讯cdn加速图床 - it小离](https://www.itxiaoli.cn/archives/cosCdn.html)
 

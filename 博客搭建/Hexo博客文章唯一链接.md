@@ -35,3 +35,9 @@ abbrlink:
 ```
 
 最终生成的文章名是根据文章的发布时间戳生成的。
+
+---
+
+参考文章：
+
+1. [rozbo/hexo-abbrlink: create one and only link for every post for hexo](https://github.com/rozbo/hexo-abbrlink)
