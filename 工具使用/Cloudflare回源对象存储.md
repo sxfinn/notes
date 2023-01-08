@@ -110,18 +110,19 @@ Cloudflare确实良心，我们也可以将其应用在图床上，就可以隐�
 
 
 
-Cloudflare可以和国内CDN结合，达到国内IP走国内CDN，国外IP走Cloudflare，达到全球加速的效果。
+**进阶方案**：可以参考 [基于COS的全球加速解决方案 - AHdark Blog](https://www.ahdark.com/som/582.shtml)
 
+Cloudflare还可以和国内CDN结合，达到国内IP走国内CDN，国外IP走Cloudflare，达到全球加速的效果。
 
-
-**方案**：一个域名既作为COS源站的CDN加速域名，又作为Cloudflare代理COS源站的自定义域名。
+一个域名既作为COS源站的CDN加速域名，又作为Cloudflare代理COS源站的自定义域名。
 
 ---
 
 参考文章：
 
 1. [cloudflare使用入门教程，国外最好免费CDN - 知乎](https://zhuanlan.zhihu.com/p/82909515)
-2. [cloudflare+freenom创建自己的域名网站 | Healthy Mind](https://jackyangjie.github.io/2021/04/21/cloudflare-freenom%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E7%BD%91%E7%AB%99/)
-3. [Cloudflare 入门教程：使用 Cloudflare 免费 CDN 加速 & 保护自己的网站 - 知乎](https://zhuanlan.zhihu.com/p/97389072)
-4. [通过Cloudflare开启全站https_Thomas_Lean的博客-CSDN博客_cloudflare https](https://blog.csdn.net/Lin_Hv/article/details/106614804)
-5. [Cloudflare or Vercel —— 网站托管与函数计算服务选择](https://blog.lv5.moe/p/website-hosting-and-function-computing-service-selection)
+2. [个人图床的最终抉择 | 小康博客](https://www.antmoe.com/posts/3f5daa8e/)
+3. [cloudflare+freenom创建自己的域名网站 | Healthy Mind](https://jackyangjie.github.io/2021/04/21/cloudflare-freenom%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E7%BD%91%E7%AB%99/)
+4. [Cloudflare 入门教程：使用 Cloudflare 免费 CDN 加速 & 保护自己的网站 - 知乎](https://zhuanlan.zhihu.com/p/97389072)
+5. [通过Cloudflare开启全站https_Thomas_Lean的博客-CSDN博客_cloudflare https](https://blog.csdn.net/Lin_Hv/article/details/106614804)
+6. [Cloudflare or Vercel —— 网站托管与函数计算服务选择](https://blog.lv5.moe/p/website-hosting-and-function-computing-service-selection)
